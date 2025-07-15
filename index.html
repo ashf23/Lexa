@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Textum Lexa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Textum Lexa</h1>
+    <p>Librería especializada en la serie Príncipes Cruels</p>
+    <nav>
+      <a href="index.html">Vista cliente</a> | <a href="admin.html">Vista soporte</a>
+    </nav>
+  </header>
+  <main>
+    <section class="catalog">
+      <!-- Agrega más productos duplicando este bloque -->
+      <div class="book">
+        <img src="book1.jpg" alt="El príncipe cruel">
+        <h2>El príncipe cruel</h2>
+        <p>Holly Black</p>
+        <p>RD$750</p>
+        <button onclick="addToCart('El príncipe cruel', 750)">Agregar al carrito</button>
+      </div>
+      <div class="book">
+        <img src="book2.jpg" alt="El rey malvado">
+        <h2>El rey malvado</h2>
+        <p>Holly Black</p>
+        <p>RD$750</p>
+        <button onclick="addToCart('El rey malvado', 750)">Agregar al carrito</button>
+      </div>
+      <div class="book">
+        <img src="book3.jpg" alt="La reina de nada">
+        <h2>La reina de nada</h2>
+        <p>Holly Black</p>
+        <p>RD$750</p>
+        <button onclick="addToCart('La reina de nada', 750)">Agregar al carrito</button>
+      </div>
+    </section>
+
+    <section class="cart">
+      <h2>Carrito</h2>
+      <ul id="cart-items"></ul>
+      <p>Total: RD$<span id="total">0</span></p>
+      <a id="whatsapp-button" href="#" target="_blank">Enviar pedido por WhatsApp</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contacto: 809-992-681 | textumlexa@example.com</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
