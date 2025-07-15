@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #B39DDB;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+nav {
+  margin-top: 10px;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: underline;
+}
+.catalog {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+  flex-wrap: wrap;
+}
+.book {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+  width: 200px;
+}
+.book img {
+  width: 100%;
+  height: auto;
+}
+.cart, .admin {
+  padding: 1em;
+  background: #f0f0f0;
+  text-align: center;
+}
+footer {
+  background-color: #D1C4E9;
+  color: black;
+  text-align: center;
+  padding: 1em;
+}
